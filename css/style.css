@@ -1,0 +1,14 @@
+body main p 
+{
+    margin: 20px;
+    align-self: auto;
+
+}
+body main h1
+{
+    text-align: center;
+    font-size: 1.5cm;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    
+}
