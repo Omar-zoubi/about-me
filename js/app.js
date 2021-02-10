@@ -15,7 +15,6 @@ qsn7 ();
 
 
 
-
  function qsn1 () {
 let userName =prompt("Enter your name please :","name ..");
 alert("Welcome to my website "+userName);
