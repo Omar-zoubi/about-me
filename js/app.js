@@ -3,6 +3,20 @@
 
 
 
+qsn1 ();
+qsn2 ();
+qsn3 ();
+qsn4 ();
+qsn5 ();
+qsn6 ();
+qsn7 ();
+
+
+
+
+
+ function qsn1 () {
+
 
 let userName =prompt("Enter your name please :","name ..");
 alert("Welcome to my website "+userName);
@@ -29,18 +43,27 @@ if ((userAnswer1 === 'yes')||(userAnswer1==='y'))
     alert ("This answer is not related ")
   }
  }
+}
 
 
 
 
+function qsn2 () {
+
+
+
+ 
 
 let userAnswer2 = prompt("Do you think that I have high GBA in university ? "," yes , no ?");
 userAnswer2 = userAnswer2.toLocaleLowerCase();
 if ((userAnswer2 === 'yes')||(userAnswer2==='y'))
 {
-    alert ("I am happy that you think like this , but acctualy I have low GPA :( "+ userName)
+    alert ("I am happy that you think like this , but acctualy I have low GPA :( ")
 }
 else
+{if((userAnswer2 === 'no')||(userAnswer2==='n')) 
+    {alert ("Right I my GPA is very low  :( ")}
+
 if((userAnswer2 === 'no')||(userAnswer2==='n')) 
     {alert ("Right I my GPA is very low  :( "+ userName)
     rightAnswers ++;
@@ -53,9 +76,14 @@ if((userAnswer2 === 'no')||(userAnswer2==='n'))
 
 
 
+}
+
+function qsn3 () {
+
 let userAnswer3 = prompt("Do you think that I like to travile  ?"," yes , no ?");
 userAnswer3 = userAnswer3.toLocaleLowerCase();
 if ((userAnswer3 === 'yes')||(userAnswer3==='y'))
+{alert ("Sure  ,I love traviling ")}
 {alert ("Sure  ,I love traviling "+ userName)
 rightAnswers ++;
 }
@@ -63,32 +91,38 @@ rightAnswers ++;
 else
 { if ((userAnswer3 === 'no')||(userAnswer3==='n'))
 
-    {alert ("WRONG !!! ,Staying at home is really borning "+userName)}
+    {alert ("WRONG !!! ,Staying at home is really borning ")}
     else 
     {
       alert ("This answer is not related ")
     }
 }
 
+}
 
-
+function qsn4 () {
 
 let userAnswer4 = prompt("Do you think that I am going to pass my scholership ?"," yes , no ?");
 userAnswer4 = userAnswer4.toLocaleLowerCase();
 if ((userAnswer4 === 'yes')||(userAnswer4==='y'))
+{alert ("Thank you for your trust " )}
+
 {alert ("Thank you for your trust "+ userName)
 rightAnswers ++;
 }
 else
 {
     if ((userAnswer4 === 'no')||(userAnswer4==='n'))
-    {alert ("You dont know me yet , I am going to do it . "+userName)}
+    {alert ("You dont know me yet , I am going to do it . ")}
     else 
     {
       alert ("This answer is not related ")
     }
 
 }    
+}
+ 
+function qsn5 () {
 
 
 
@@ -97,12 +131,13 @@ let userAnswer5 = prompt("Do you think that I love MANSAF ??"," yes , no ?");
 userAnswer5 = userAnswer5.toLocaleLowerCase();
 if ((userAnswer5 === 'yes')||(userAnswer5 ==='y'))
 {
+    alert ("SURE. I am Joradnian  ")
     alert ("SURE. I am Joradnian  "+ userName)
     rightAnswers ++;
 }
 else
 { if ((userAnswer5 === 'no')||(userAnswer5==='n'))
-  {alert ("WRONG!! , I love it  "+userName)}
+  {alert ("WRONG!! , I love it  ")}
   else 
   {
    alert ("This answer is not related ")
@@ -111,6 +146,11 @@ else
 
 }
 
+}
+
+
+
+function qsn6 () {
 
 
  for (let i =0 ; i <= 3 ; i++ )
@@ -138,7 +178,11 @@ else
         alert ("You did not giss , I am 30 years old ");
     }
 }
+}
 
+
+
+function qsn7 () {
 
 
 
@@ -183,4 +227,8 @@ for (let i = 0 ; i<=5 ; i++)
     break ;
 
 }
+alert("You have "+rightAnswers+ "right answer out of 7 ")
+}
+
+
 alert("You have "+rightAnswers+ " right answer out of 7 ")
