@@ -77,13 +77,13 @@ if((userAnswer2 === 'no')||(userAnswer2==='n'))
 
 
 }
-
+}
 function qsn3 () {
 
 let userAnswer3 = prompt("Do you think that I like to travile  ?"," yes , no ?");
 userAnswer3 = userAnswer3.toLocaleLowerCase();
 if ((userAnswer3 === 'yes')||(userAnswer3==='y'))
-{alert ("Sure  ,I love traviling ")}
+
 {alert ("Sure  ,I love traviling "+ userName)
 rightAnswers ++;
 }
@@ -105,7 +105,7 @@ function qsn4 () {
 let userAnswer4 = prompt("Do you think that I am going to pass my scholership ?"," yes , no ?");
 userAnswer4 = userAnswer4.toLocaleLowerCase();
 if ((userAnswer4 === 'yes')||(userAnswer4==='y'))
-{alert ("Thank you for your trust " )}
+
 
 {alert ("Thank you for your trust "+ userName)
 rightAnswers ++;
