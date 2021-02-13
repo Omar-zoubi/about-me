@@ -12,10 +12,44 @@ body main h1
     font-size: 1.5cm;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: oblique;
+    
 }
-
+body main p
+{
+    font-size: 25px;
+}
+body main h4
+{
+    font-size: 30px;
+    font-style: italic;
+}
+body ul li
+{
+    font-size: 20px;
+}
+body h4
+{
+    font-size: 30px;
+    font-style: italic;
+}
+body ol li 
+{
+    font-size: 20px;
+}
 body
 {
-    background-color: lightseagreen;
+    background-color: rgb(55, 215, 226)
+   
+    
+}
+.rr
+{
+    margin: 0%;
+    width: 1000px;
+}
+.wel 
+{
+    height: 300px;
+    width: 1600px;
     
 }
