@@ -3,6 +3,10 @@
 
 
 
+let rightAnswers = 0;
+let userName = "Vistor";
+username =prompt("Enter your name please :","name ..");
+alert("Welcome to my website "+userName);
 qsn1 ();
 qsn2 ();
 qsn3 ();
@@ -18,13 +22,12 @@ qsn7 ();
  function qsn1 () {
 
 
-let userName =prompt("Enter your name please :","name ..");
-alert("Welcome to my website "+userName);
+
 
 let userAnswer1 = prompt("Do you think that I am a good football player  ??"," yes , no ?");
 // Converting the answer to Lower case 
 userAnswer1 = userAnswer1.toLocaleLowerCase();
-let rightAnswers = 0;
+
 // checking the answer (yes / no )
 if ((userAnswer1 === 'yes')||(userAnswer1==='y'))
 {
@@ -61,9 +64,7 @@ if ((userAnswer2 === 'yes')||(userAnswer2==='y'))
     alert ("I am happy that you think like this , but acctualy I have low GPA :( ")
 }
 else
-{if((userAnswer2 === 'no')||(userAnswer2==='n')) 
-    {alert ("Right I my GPA is very low  :( ")}
-
+{
 if((userAnswer2 === 'no')||(userAnswer2==='n')) 
     {alert ("Right I my GPA is very low  :( "+ userName)
     rightAnswers ++;
@@ -131,7 +132,7 @@ let userAnswer5 = prompt("Do you think that I love MANSAF ??"," yes , no ?");
 userAnswer5 = userAnswer5.toLocaleLowerCase();
 if ((userAnswer5 === 'yes')||(userAnswer5 ==='y'))
 {
-    alert ("SURE. I am Joradnian  ")
+    
     alert ("SURE. I am Joradnian  "+ userName)
     rightAnswers ++;
 }
@@ -227,8 +228,8 @@ for (let i = 0 ; i<=5 ; i++)
     break ;
 
 }
-alert("You have "+rightAnswers+ "right answer out of 7 ")
+alert("You have "+rightAnswers+ " right answer out of 7 ")
 }
 
 
-alert("You have "+rightAnswers+ " right answer out of 7 ")
+
