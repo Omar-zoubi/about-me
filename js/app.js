@@ -5,7 +5,7 @@
 
 let rightAnswers = 0;
 let userName = "Vistor";
-username =prompt("Enter your name please :","name ..");
+userName =prompt("Enter your name please :","name ..");
 alert("Welcome to my website "+userName);
 qsn1 ();
 qsn2 ();
